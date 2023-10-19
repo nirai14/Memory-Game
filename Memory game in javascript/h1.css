@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(to right, #fffb1a,rgba(255, 255, 255, 0.918));
+margin: auto;
+text-align: center;
+justify-content: center;
+}
+h1{
+    color: rgb(11, 9, 73);
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.game{
+    display: grid;
+grid-template-columns: repeat(4,120px);
+position: relative;
+top: 50px;
+margin: auto;
+gap: 20px;
+left: 30%;
+}
+#gameBoard div{
+    border: 2px solid rgb(15, 9, 9);
+    width: 100px;
+    height: 130px;
+    margin: auto;
+    border: none;
+   color: rgb(255, 255, 255);
+   display: flex;
+   background-color: rgb(81, 0, 115);
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   border-radius:200px;
+}
+.cardBack{
+background:linear-gradient(to top,rgb(12, 231, 255) ,rgb(130, 15, 218));
+size: 10px 10px;
+position: 10px  0px 10px 0px;
+border-radius:200px;
+}
+.cardBack:hover{
+    cursor: pointer;
+}
+.won{
+    text-align: center;
+    position: relative;
+    top: 130px;
+    font-size: 60px;
+    margin: auto;
+}
+#gameBoard button{
+    background-color: #400396;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+   text-align: center;
+   display: block;
+   position: relative;
+   top: 40px;
+   margin: auto;
+}
+#gameBoard button:hover{
+    border: 3px solid rgb(42, 155, 165);
+    background-color: rgb(28, 9, 87);
+    color: white;
+}
